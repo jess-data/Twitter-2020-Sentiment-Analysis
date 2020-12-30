@@ -14,10 +14,18 @@ In the Jupyter Notebook, you will leearn how I carried out the following steps f
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/7709-01-7-step-horizontal-flow-diagram-for-powerpoint-16x9%20-%20PowerPoint%2028_12_2020%2011_26_38%20PM.png)
 
+Tweets Processing Steps
+![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/twitter.jpg)
+
+Word Cloud 
+WordCloud was generated usind WordCloud library and Matplotlib
+![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/wordcloud.png)
+
 Visulizing Outcome
 The Plot below was genrated using Plotly Library for Python
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics2%20-%20Jupyter%20Notebook%20-%20Google%20Chrome%2026_12_2020%201_09_57%20AM.png)
+
 
 
 Some of the insights I generated are stated below:
