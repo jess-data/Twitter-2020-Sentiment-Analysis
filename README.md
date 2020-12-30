@@ -1,5 +1,5 @@
 # Analyzing Twitter Users' 2020 Reflections using NLP
-### A Sentiment Analysis Project using Python and Tableau Click here(https://jess-analytics.medium.com/) for full article.
+### A Sentiment Analysis Project using Python and Tableau Click [here](https://jess-analytics.medium.com/) for full article.
 
 This is a Sentiment Analysis Project using Natural Language Processing (NLP) Techniques. In December 2020, I felt it would be a good idea to obtain insights into how Twitter users felt about the year. Twitter receives over 500 million tweets per day from its users across the globe, so I only had to find a way to retrieve the data. This Notebook makes use of several Python libraries like Pandas (for Data Cleaning/Manipulation), Tweepy (for Tweets Mining), NLTK (Natural Language Toolkit), TextBlob (for Sentiment Analysis), MatPlotlib &  WordCloud (for Data Exploration), Emot (for Emojis identification), Plotly (for some Data Visualisation)
 In the Jupyter Notebook, you will leearn how I carried out the following steps for the project:
@@ -12,23 +12,26 @@ In the Jupyter Notebook, you will leearn how I carried out the following steps f
 6. Data Exploration
 7. Sentiment Analysis
 
-![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/7709-01-7-step-horizontal-flow-diagram-for-powerpoint-16x9%20-%20PowerPoint%2028_12_2020%2011_26_38%20PM.png)
-
 ## Tweets Processing Steps
-This project had different facets which are outlined in the flowchart below.
+To reach the ultimate goal, there was a need to clean up the individual tweets. To make this easy, I created a function "preProcessTweets" in my Python program which I further applied to the "Tweets" to produce the desired results. This user-defined function was used to remove punctuations, links, emojis, and stop words from the tweets in a single run. Additionally, I used a concept known as "Tokenization" in NLP. It is a method of splitting a sentence into smaller units called "tokens" to remove unnecessary elements. Another technique worthy of mention is "Lemmatization". This is a process of returning words to their "base" form. A simple illustration is shown below.
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/twitter.jpg)
 
 ## Word Cloud Generation
 To get the most commoon words used to describe 2020, I made use of the POS-tag (Parts of Speech tagging) module in the NLTK library. Using the WordCloud library, one can generate a Word Cloud based on word frequency and superimpose these words on any image. In this case, I used the Twitter logo and Matplotlib to display the image. The Word Cloud shows the words with higher frequency in bigger text size while the "not-so" common words are in smaller text sizes.
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/wordcloud.png)
 
-## Visulizing Outcome
+## Visulizing Most Common WOrd Frequencies
 The Plot below was genrated using Plotly Library for Python
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics2%20-%20Jupyter%20Notebook%20-%20Google%20Chrome%2026_12_2020%201_09_57%20AM.png)
 
+## Sentiment Analysis
+For this analysis, I went with TextBlob. Text Blob analyzes sentences by giving each tweet a Subjectivity and Polarity score. 
+Based on the Polarity scores, one can define which tweets were Positive, Negative, or Neutral. A Polarity score of < 0 is Negative, 0 is Neutral while > 0 is Positive. I used the "apply" method on the "Polarity" column in my data frame to return the respective Sentiment Category. The distribution of the Sentiment categories is shown below. You can also see the Sentiment Category distribution per country and continent in the Tableau dashboard [HERE](https://public.tableau.com/views/Again_16090941050490/FinalDashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
+![alt text][https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Distribution%20of%20Sentiments%20Results.png]
 
+## Remarks
 Some of the insights I generated are stated below:
 
 Tweet Sentiments: I was not surprised by the proportion of the sentiment categories because, for most people, the end of the year is a time to show gratitude and hope for a better year ahead. However, this year has been filled with so many unpalatable events, hence, 31% of the tweets being Negative. *Please note that this is not indicative of the entire Twitter community as only a subset of tweets were mined for this analysis.
