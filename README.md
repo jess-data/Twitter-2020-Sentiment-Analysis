@@ -25,7 +25,7 @@ To get the most commoon words used to describe 2020, I made use of the POS-tag (
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/wordcloud.png)
 
-## Visulizing Most Common WOrd Frequencies
+## Visulizing Most Common Words
 The Plot below was genrated using Plotly Library for Python
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics2%20-%20Jupyter%20Notebook%20-%20Google%20Chrome%2026_12_2020%201_09_57%20AM.png)
@@ -43,3 +43,12 @@ Some of the insights I generated are stated below:
 * Hour of the day with the Most Tweets: It was interesting to see that most tweets were created at 5 PM (GMT). Thinking about it, in the US & Canada, this is lunchtime while in countries like Nigeria and England, it is when most individuals finish the work-day, so they have ample time to tweet.
 * Hour of the day with Least Tweets: 9 AM (GMT) was the hour of the day with the least number of tweets. The reason is this is when most people start their day at work in countries like Nigeria and England while it is still bed-time in other countries like the US & Canada.
 * Most Retweeted and Liked Tweet: For the period of 12th to 25th December 2020, the tweet with the most retweets was about a Korean boy band: "BTS" and their songs with 10,873 RTs. The most liked tweet from a user who tweeted about how "2020 was a good year for his dog who did not have to be alone for a second". The tweet had 42,295 likes.
+
+## Relevant Links
+* [Tableau Dashboard](https://public.tableau.com/views/Again_16090941050490/FinalDashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+* [Jupyter Notebook](https://nbviewer.jupyter.org/github/jess-data/Twitter-2020-Sentiment-Analysis/tree/master/Twitter%20Sentiment%20Analysis%20Project.ipynb)
+* [Medium Articles](https://jess-analytics.medium.com/)
+* [LinkedIn](https://www.linkedin.com/in/jessicauwoghiren/)
+* [Twitter](https://www.linkedin.com/in/jessicauwoghiren/)
+* [DataTech Space Community](https://linktr.ee/DataTechSpace)
+
