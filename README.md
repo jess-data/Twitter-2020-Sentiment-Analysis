@@ -1,5 +1,5 @@
 # Analyzing Twitter Users' 2020 Reflections using NLP
-### A Sentiment Analysis Project using Python and Tableau
+### A Sentiment Analysis Project using Python and Tableau Click here(https://jess-analytics.medium.com/) for full article.
 
 This is a Sentiment Analysis Project using Natural Language Processing (NLP) Techniques. In December 2020, I felt it would be a good idea to obtain insights into how Twitter users felt about the year. Twitter receives over 500 million tweets per day from its users across the globe, so I only had to find a way to retrieve the data. This Notebook makes use of several Python libraries like Pandas (for Data Cleaning/Manipulation), Tweepy (for Tweets Mining), NLTK (Natural Language Toolkit), TextBlob (for Sentiment Analysis), MatPlotlib &  WordCloud (for Data Exploration), Emot (for Emojis identification), Plotly (for some Data Visualisation)
 In the Jupyter Notebook, you will leearn how I carried out the following steps for the project:
@@ -14,14 +14,15 @@ In the Jupyter Notebook, you will leearn how I carried out the following steps f
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/7709-01-7-step-horizontal-flow-diagram-for-powerpoint-16x9%20-%20PowerPoint%2028_12_2020%2011_26_38%20PM.png)
 
-Tweets Processing Steps
+## Tweets Processing Steps
+This project had different facets which are outlined in the flowchart below.
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/twitter.jpg)
 
-Word Cloud 
-WordCloud was generated usind WordCloud library and Matplotlib
+## Word Cloud Generation
+To get the most commoon words used to describe 2020, I made use of the POS-tag (Parts of Speech tagging) module in the NLTK library. Using the WordCloud library, one can generate a Word Cloud based on word frequency and superimpose these words on any image. In this case, I used the Twitter logo and Matplotlib to display the image. The Word Cloud shows the words with higher frequency in bigger text size while the "not-so" common words are in smaller text sizes.
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/wordcloud.png)
 
-Visulizing Outcome
+## Visulizing Outcome
 The Plot below was genrated using Plotly Library for Python
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics2%20-%20Jupyter%20Notebook%20-%20Google%20Chrome%2026_12_2020%201_09_57%20AM.png)
