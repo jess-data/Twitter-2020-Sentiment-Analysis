@@ -14,10 +14,12 @@ In the Jupyter Notebook, you will leearn how I carried out the following steps f
 
 ## Tweets Processing Steps
 To reach the ultimate goal, there was a need to clean up the individual tweets. To make this easy, I created a function "preProcessTweets" in my Python program which I further applied to the "Tweets" to produce the desired results. This user-defined function was used to remove punctuations, links, emojis, and stop words from the tweets in a single run. Additionally, I used a concept known as "Tokenization" in NLP. It is a method of splitting a sentence into smaller units called "tokens" to remove unnecessary elements. Another technique worthy of mention is "Lemmatization". This is a process of returning words to their "base" form. A simple illustration is shown below.
+
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/twitter.jpg)
 
 ## Word Cloud Generation
 To get the most commoon words used to describe 2020, I made use of the POS-tag (Parts of Speech tagging) module in the NLTK library. Using the WordCloud library, one can generate a Word Cloud based on word frequency and superimpose these words on any image. In this case, I used the Twitter logo and Matplotlib to display the image. The Word Cloud shows the words with higher frequency in bigger text size while the "not-so" common words are in smaller text sizes.
+
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/wordcloud.png)
 
 ## Visulizing Most Common WOrd Frequencies
@@ -29,7 +31,7 @@ The Plot below was genrated using Plotly Library for Python
 For this analysis, I went with TextBlob. Text Blob analyzes sentences by giving each tweet a Subjectivity and Polarity score. 
 Based on the Polarity scores, one can define which tweets were Positive, Negative, or Neutral. A Polarity score of < 0 is Negative, 0 is Neutral while > 0 is Positive. I used the "apply" method on the "Polarity" column in my data frame to return the respective Sentiment Category. The distribution of the Sentiment categories is shown below. You can also see the Sentiment Category distribution per country and continent in the Tableau dashboard [HERE](https://public.tableau.com/views/Again_16090941050490/FinalDashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
-![alt text][https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Distribution%20of%20Sentiments%20Results.png]
+![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Distribution%20of%20Sentiments%20Results.png)
 
 ## Remarks
 Some of the insights I generated are stated below:
