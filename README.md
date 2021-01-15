@@ -45,7 +45,7 @@ Some of the insights I generated are stated below:
 * __Most Retweeted and Liked Tweet__: For the period of 12th to 25th December 2020, the tweet with the most retweets was about a Korean boy band: "BTS" and their songs with 10,873 RTs. The most liked tweet from a user who tweeted about how "2020 was a good year for his dog who did not have to be alone for a second". The tweet had 42,295 likes.
 
 ## Relevant Links
-* [Tableau Dashboard](https://public.tableau.com/views/Again_16090941050490/FinalDashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+* [Tableau Dashboard](https://public.tableau.com/profile/jessica.uwoghiren#!/vizhome/TwitterUsers2020ReflectionsDashboard/FinalDashboard)
 * [Jupyter Notebook](https://nbviewer.jupyter.org/github/jess-data/Twitter-2020-Sentiment-Analysis/tree/master/Twitter%20Sentiment%20Analysis%20Project.ipynb)
 * [Medium Articles](https://jess-analytics.medium.com/)
 * [LinkedIn](https://www.linkedin.com/in/jessicauwoghiren/)
