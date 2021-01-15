@@ -46,8 +46,9 @@ Some of the insights I generated are stated below:
 
 ## Relevant Links
 * [Tableau Dashboard](https://public.tableau.com/profile/jessica.uwoghiren#!/vizhome/TwitterUsers2020ReflectionsDashboard/FinalDashboard)
-* [Jupyter Notebook](https://nbviewer.jupyter.org/github/jess-data/Twitter-2020-Sentiment-Analysis/tree/master/Twitter%20Sentiment%20Analysis%20Project.ipynb)
-* [Medium Articles](https://jess-analytics.medium.com/)
+* [Jupyter Notebook](https://nbviewer.jupyter.org/github/jess-data/Twitter-2020-Sentiment-Analysis/tree/master/Twitter%20Sentiment%20Analysis%20Project.ipynb0)
+* [Personal Website](https://jess-analytics.com/)
+* [Medium Article](https://jess-analytics.medium.com/)
 * [LinkedIn](https://www.linkedin.com/in/jessicauwoghiren/)
 * [Twitter](https://twitter.com/jessica_xls)
 * [DataTech Space Community](https://linktr.ee/DataTechSpace)
