@@ -28,7 +28,7 @@ To get the most common words used to describe 2020, I made use of the POS-tag (P
 ## Visulizing Most Common Words
 The Plot below was genrated using Plotly Library for Python.
 
-![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics2%20-%20Jupyter%20Notebook%20-%20Google%20Chrome%2026_12_2020%201_09_57%20AM.png)
+![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Twitter%20analytics%20pic.png)
 
 ## Sentiment Analysis
 For this analysis, I went with TextBlob. Text Blob analyzes sentences by giving each tweet a Subjectivity and Polarity score. 
