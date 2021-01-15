@@ -32,7 +32,7 @@ The Plot below was genrated using Plotly Library for Python.
 
 ## Sentiment Analysis
 For this analysis, I went with TextBlob. Text Blob analyzes sentences by giving each tweet a Subjectivity and Polarity score. 
-Based on the Polarity scores, one can define which tweets were Positive, Negative, or Neutral. A Polarity score of < 0 is Negative, 0 is Neutral while > 0 is Positive. I used the "apply" method on the "Polarity" column in my data frame to return the respective Sentiment Category. The distribution of the Sentiment categories is shown below. You can also see the Sentiment Category distribution per country and continent in the Tableau dashboard [HERE](https://public.tableau.com/views/Again_16090941050490/FinalDashboard?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
+Based on the Polarity scores, one can define which tweets were Positive, Negative, or Neutral. A Polarity score of < 0 is Negative, 0 is Neutral while > 0 is Positive. I used the "apply" method on the "Polarity" column in my data frame to return the respective Sentiment Category. The distribution of the Sentiment categories is shown below. You can also see the Sentiment Category distribution per country and continent in the Tableau dashboard [HERE](https://public.tableau.com/profile/jessica.uwoghiren#!/vizhome/TwitterUsers2020ReflectionsDashboard/FinalDashboard)
 
 ![alt text](https://github.com/jess-data/Twitter-2020-Sentiment-Analysis/blob/master/Distribution%20of%20Sentiments%20Results.png)
 
